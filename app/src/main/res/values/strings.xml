@@ -4,7 +4,7 @@
     <string name="button_yang_panjang">Button yang panjang</string>
     <string name="button">Button</string>
     <string name="nama">Nama</string>
-    <string name="isi_nama_lengkap">isi_nama_lengkap</string>
+    <string name="isi_nama_lengkap">isi nama lengkap</string>
     <string name="email">Email</string>
     <string name="isi_dengan_email_valid">isi dengan email valid</string>
     <string name="phone">Phone</string>
@@ -14,5 +14,5 @@
     <string name="masukan_jumlah_sks">masukan jumlah sks</string>
     <string name="simpan">Simpan</string>
     <string name="batal">Batal</string>
-    <string name="isi_dengan_no_yang_aktif">isi_dengan_no_yang_aktif</string>
+    <string name="isi_dengan_no_yang_aktif">isi dengan no yang aktif</string>
 </resources>
