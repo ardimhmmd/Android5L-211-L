@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nama"
+        android:text="Nama"
         android:textSize="19sp"
         />
 
@@ -19,7 +19,7 @@
         android:id="@+id/namaTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/muhammad_ardi"
+        android:text="Muhammad Ardi"
         android:textSize="28sp"
         android:layout_marginBottom="8dp"
         />
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/email"
+        android:text="Email"
         android:textSize="19sp"
         />
 
@@ -35,7 +35,7 @@
         android:id="@+id/emailTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ardiudin1213_gmail_com"
+        android:text="ardiudin1213@gmail.com"
         android:textSize="28sp"
         android:layout_marginBottom="8dp"
         />
