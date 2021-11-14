@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="danger">#DC291C</color>
     <color name="succes">#278A2B</color>
+    <color name="logo">#A9B6A9</color>
 </resources>
