@@ -1,10 +1,12 @@
 package com.muhammad.android5l
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import java.time.Instant
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,9 +23,17 @@ class MainActivity : AppCompatActivity() {
 
         simpanButton.setOnClickListener {
             val nama = namaEditText.text.toString()
+            val email = emailEditText.text.toString()
             var jumlahsks = jumlahsksEditText.text.toString().toInt()
             jumlahsks = 160 - jumlahsks
             Toast.makeText(this, "Sisa SKS... $jumlahsks ", Toast.LENGTH_SHORT).show()
+
+            val intent = Intent( this, ResultActivity::class.java)
+            intent.putExtra("nama", nama)
+            intent.putExtra("email", email)
+            intent.putExtra("Jumlah_sks", jumlahsks)
+            startActivity(intent)
+
         }
         batalButton.setOnClickListener {
             Toast.makeText(this, "Batal", Toast.LENGTH_SHORT).show()
